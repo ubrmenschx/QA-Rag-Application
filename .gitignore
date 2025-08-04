@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore Jupyter/IPython files (if any)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp
+*.log
+*.tmp
+*.temp
+
+# Ignore PDF or user-uploaded files (if not needed)
+*.pdf
+uploads/
+temp/
+
+# Ignore PyTorch, HuggingFace cache (if used)
+~/.cache/
+.cache/
+huggingface/
+
+# VSCode project settings
+.vscode/
+
+# Streamlit generated files
+.streamlit/
